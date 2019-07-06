@@ -1,4 +1,4 @@
-# Virtualization-Software-Lab
-SK텔레콤 SW기술원 Virtualization Software Lab 기술블로그
+# SK Telecom Cloud Labs  
+SK Telecom Cloud Labs Technical Blog, especially regarding Open Source Sotware activity. 
+https://openinfradev.github.io/
 
-https://sktelecom-oslab.github.io/Virtualization-Software-Lab/
