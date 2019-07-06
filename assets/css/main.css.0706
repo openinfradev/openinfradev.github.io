@@ -437,19 +437,19 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  background-color: #f7f7f4;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
 }
 
 .highlighter-rouge {
-  color: #ce887b;
+  color: #45454c;
   font-weight: 400;
   border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-  padding: 0.1rem 0.5rem;
+  padding: 0.1rem 0.1rem;
 }
 
 .highlight .hll {
@@ -786,18 +786,9 @@ h1 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 1024px;
   vertical-align: middle;
   display: inline-block;
-}
-
-img + em {
-  text-align: center;
-  display: block;
-  margin-top: 10px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
 }
 
 blockquote {
@@ -810,20 +801,13 @@ blockquote {
 
 pre {
   padding: 1rem 2rem;
-  overflow: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
+  overflow-x: auto;
 }
 
 pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
-  overflow: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
 table {
@@ -890,6 +874,7 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+  max-width: 1250px;
 }
 
 ::-moz-selection {
@@ -933,7 +918,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #e8d9c7;
 }
 
 .about {
@@ -1226,23 +1211,6 @@ a.newer-posts:hover {
   overflow: hidden;
 }
 
-.page-cover-image figure {
-  position: relative;
-  margin: 0;
-}
-
-.page-cover-image figcaption {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding-left: 20px;
-  color: rgba(255, 255, 255, 0.7);
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-
 .page-cover-image .page-image {
   width: 100%;
   height: 100%;
@@ -1479,5 +1447,3 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
-
-
