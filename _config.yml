@@ -1,0 +1,32 @@
+title: Hello, We're SK Telecom Open Infrastructure Software Development Team 
+description: > # this means to ignore newlines until "baseurl:"
+  안녕하세요. 이 블로그에서는 SK텔레콤의 Open Infrastructure 관련 오픈소스 소프트웨어에 대한 기술 정보를 공유하고 있습니다
+permalink: ':title/'
+baseurl: "/openinfradev.github.io" # the subpath of your site, e.g. /blog
+url: "https://openinfradev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: SKT Open Infrastructure Development Team 
+author-img: vslab2.jpg # add your photo
+about-author: 안녕하세요. SK Telecom의 Cloud Labs는 Open Infrastructure와 관련된 Open Source Software를 개발하고 있습니다. 이 블로그를 통해서  OpenStack, Kubernetes, Ceph 등과 관련된 저희들의 경험과 정보들을 나누고자 합니다.
+social-github: openinfradev # add your Github handle
+social-email: jay.ahn@sk.com # add your Email address
+
+# Disqus
+discus-identifier: openstack # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 6
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
