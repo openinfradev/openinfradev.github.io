@@ -2,7 +2,7 @@ title: Hello, We're SK Telecom Open Infrastructure Software Development Team
 description: > # this means to ignore newlines until "baseurl:"
   안녕하세요. 이 블로그에서는 SK텔레콤의 Open Infrastructure 관련 오픈소스 소프트웨어에 대한 기술 정보를 공유하고 있습니다
 permalink: ':title/'
-baseurl: "/openinfradev.github.io" # the subpath of your site, e.g. /blog
+#baseurl: "/openinfradev.github.io" # the subpath of your site, e.g. /blog
 url: "https://openinfradev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
