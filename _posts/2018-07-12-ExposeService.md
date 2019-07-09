@@ -2,6 +2,7 @@
 layout: post
 title:  "TACO 서비스 외부로 오픈하기"
 author: "문현선"
+img: blog_serviceopen.jpg
 date:   2018-07-12 11:00:00 +0900
 ---
 

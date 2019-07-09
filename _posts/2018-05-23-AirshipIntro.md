@@ -3,6 +3,9 @@ title: Open Infrastructure Project "Airship"
 author: 안재석
 author-email: jay.ahn@sk.com
 description: SKT, AT&T-오픈스택 재단과 함께 손쉬운 클라우드 구축을 가속화 할 새로운 오픈 인프라 프로젝트 Airship 출범
+img: blog_airship.jpg
+date:   2018-05-23 11:00:00 +0900
+
 ---
 # Open Infrastructure Project, Airship
 For English Version, please visit [SKT Global Blog]. 
