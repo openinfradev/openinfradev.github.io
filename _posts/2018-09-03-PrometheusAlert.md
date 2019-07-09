@@ -2,6 +2,7 @@
 layout: post
 title:  "Prometheus를 이용한 Event Alerting in TACO"
 author: "최태일"
+img: blog_prometheus.jpg
 date:   2018-09-03 11:00:00 +0900
 ---
 
