@@ -1,22 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <title>Everything on Kubernetes, Kubernetes Anywhere</title>
-  <body style="margin:0px; padding:0px;">
-    <table WIDTH='700' border='0' cellpadding='0' cellspacing='0' align="center">
-        <tr>
-            <td style="line-height:0PX">
-              <img src="http://www.plan9.co.kr/edm/img/edm.jpg" alt="" usemap="#map01" cellpadding='0' cellspacing='0' align="center">
-              <map name="map01" id="map01">
-                <area shape="rect" coords="50, 492, 299, 559" href="https://devocean.sk.com/events/view.do?id=116" alt="Everything on Kubernetes, Kubernetes Anywhere" />
-                <area shape="rect" coords="323, 2293, 572, 2360" href="https://devocean.sk.com/events/view.do?id=116" alt="Everything on Kubernetes, Kubernetes Anywhere" />
-                <area shape="rect" coords="323, 3033, 572, 3099" href="https://devocean.sk.com/events/view.do?id=116" alt="Everything on Kubernetes, Kubernetes Anywhere" />
-              </map>
-            </td>
-        </tr>
-    </table>
-  </body>
-</head>
-</html>
+---
+layout: main
+---
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}
+
